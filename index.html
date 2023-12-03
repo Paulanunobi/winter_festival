@@ -3,22 +3,25 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Winterclude</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Nunito&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
     <header id="menu-bar">
-        <img src="logo.png" alt="Winterclude Logo">
+        <img src="img/logo.png" alt="Winterclude Logo">
         <nav>
-            <ul>
+            <ul class="navigation-titles">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Events</a></li>
                 <li><a href="#">Venues</a></li>
                 <li><a href="#">Sponsors</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Contact Us</a></li>
             </ul>
         </nav>
     </header>
@@ -39,10 +42,10 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aut sapiente, ad, vitae minus repellat
                     tempora non fuga incidunt obcaecati quia pariatur voluptates iusto illo possimus iure fugiat neque
                     vel.</p>
-                <button class="btn btn-primary">Learn More</button>
+                <button class="btn-learn-more">Learn More</button>
             </div>
             <div class="col-md-6">
-                <img src="image1.jpg" alt="Section 1 Image" class="img">
+                <img src="img/image1.jpg" alt="Section 1 Image" class="img-fluid">
             </div>
         </div>
     </section>
@@ -50,14 +53,14 @@
     <section class="section 2">
         <div class="container">
             <div class="">
-                <img src="image1.jpg" alt="Section 2 Image" class="img-fluid">
+                <img src="img/image1.jpg" alt="Section 2 Image" class="img-fluid">
             </div>
             <div class="">
                 <h1>Section 2 Title</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quos laborum? Totam ut
                     voluptatibus animi architecto, maxime corrupti enim recusandae doloremque, minus culpa, alias
                     explicabo excepturi natus voluptatem voluptas? Aspernatur.</p>
-                <button class="btn btn-primary">Learn More</button>
+                <button class="btn-learn-more">Learn More</button>
             </div>
         </div>
     </section>
@@ -69,10 +72,10 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt eligendi ullam magni architecto
                     ducimus, adipisci, voluptatibus hic quo rerum quas dolorum quasi laboriosam culpa error vel quidem
                     perspiciatis ad consectetur?.</p>
-                <button class="btn btn-primary">Learn More</button>
+                <button class="btn-learn-more">Learn More</button>
             </div>
             <div class="">
-                <img src="image1.jpg" alt="Section 3 Image" class="img-fluid">
+                <img src="img/image1.jpg" alt="Section 3 Image" class="img-fluid">
             </div>
         </div>
     </section>
@@ -147,9 +150,7 @@
     <!-- Snowflake code from https://codepen.io/codeconvey/pen/xRzQay -->
 
 </body>
-<script>
-    var copy = document.querySelector(".logos-slide").cloneNode(true);
-    document.querySelector(".logos").appendChild(copy);
-</script>
+<script src="https://kit.fontawesome.com/47ca63bf68.js" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 
 </html>
