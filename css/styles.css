@@ -446,6 +446,7 @@ footer {
 
 .upper{
   height: 388px;
+<<<<<<< HEAD
 }
 
 /* FAQ Page */
@@ -491,4 +492,6 @@ details[open] summary:after{
 
 details[open] div{
   padding: .5em 1em;
+=======
+>>>>>>> 816c24cde668ab8ce9175115b876a67c6d2c79b5
 }
