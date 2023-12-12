@@ -70,7 +70,7 @@ nav ul li a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #104b8f;
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -751,9 +751,27 @@ details[open] div {
 .footer-logo{
   width: 100px;
 }
-.count-down{
-  font-size: 200px;
-  color: #000;
+.countdown{
   background-color: #ffffff94;
+  border-radius: 10px;
+  padding: 80px;
+}
 
+.counter-wraper {
+  display: flex;
+  padding: 1%;
+  justify-content: space-between;
+  text-align: center;
+  
+}
+.day-box, .hour-box, .minute-box, .seconds-box {
+  font-size: 50px;
+  font-weight: bold;
+}
+.hour-box, .minute-box, .seconds-box, .hour-text, .minute-text, .seconds-text{
+  margin-left: 20px;
+}
+
+.seconds-box {
+  color: palevioletred;
 }
