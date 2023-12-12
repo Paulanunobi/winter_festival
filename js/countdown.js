@@ -3,7 +3,7 @@ let hoursToNewyear = document.getElementById("hours-to-newyear");
 let minutesToNewyear = document.getElementById("minutes-to-newyear");
 let secondsToNewyear = document.getElementById("seconds-to-newyear");
 let newyearTitle = document.getElementById("newyear-title");
-let newYearDate = new Date(2024, 1, 1);
+let newYearDate = new Date(2023, 1, 1);
 let neyYearTime = newYearDate.getTime();
 
 let oneMin = 60 * 1000;
@@ -24,7 +24,9 @@ function countdown() {
     secondsToNewyear.textContent = Math.floor((remainingTime % oneMin) / 1000);
   } else {
     newyearTitle.setAttribute("style", "color: red");
-    newyearTitle.textContent = "Countdown has expired";
+    newyearTitle.textContent = "WINTERLUDE HAS STARTED!!!";
+    document.getElementById("counter-wraper").style.display = "none";
+    document.getElementById("content").style.display = "block";
   }
 }
 setInterval(countdown, 1000);

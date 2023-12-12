@@ -783,7 +783,7 @@ footer {
   padding: 80px;
 }
 
-.counter-wraper {
+#counter-wraper {
   display: flex;
   padding: 1%;
   justify-content: space-between;
@@ -800,4 +800,14 @@ footer {
 
 .seconds-box {
   color: palevioletred;
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span{
+  font-size: 4rem;
+  padding: 0 .5rem;
 }
