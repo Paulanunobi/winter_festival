@@ -524,8 +524,9 @@ details[open] div {
 }
 
 .event-h1 {
-  margin-top: 60px;
-  margin-left: 95px;
+  margin-top: 120px;
+  margin-bottom: 60px;
+  margin-left: 120px;
 }
 
 .event-description {
