@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         index = (index + 1) % images.length;
     }
 
-    setInterval(changeImage, 4000);
+    setInterval(changeImage, 10000);
     changeImage();
 });
 
