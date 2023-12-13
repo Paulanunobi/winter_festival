@@ -110,11 +110,11 @@ nav ul li a:hover {
 }
 
 .image-right {
-  margin: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 60px;
 }
 
 .image-left {
-  margin: 0px 10px 0px 0px;
+  margin: 0px 60px 0px 0px;
 }
 
 p {
@@ -284,7 +284,7 @@ p {
 }
 
 .contact-wrap {
-  position: absolute;
+  margin-top: 200px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   height: 50%;
@@ -504,8 +504,9 @@ details[open] div {
 
 .event-photo {
   width: 600px;
-  border-radius: 200px;
+  border-radius: 100%;
   object-fit: contain;
+  height: 400px;
 }
 
 .footer {
@@ -676,7 +677,7 @@ footer {
 }
 
 /* Testimonials */
-.section-4{
+.section-4 {
   display: flex;
   justify-content: center;
   margin: 40px 0px 100px 0px;
@@ -698,6 +699,7 @@ figure.testimonials {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 figure.testimonials *,
 figure.testimonials *:before,
 figure.testimonials *:after {
@@ -706,24 +708,30 @@ figure.testimonials *:after {
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
+
 figure.testimonials figcaption {
   width: 100%;
 }
+
 figure.testimonials h2,
 figure.testimonials h4,
 figure.testimonials blockquote {
   margin: 0;
 }
+
 figure.testimonials h2,
 figure.testimonials h4 {
   font-weight: 300;
 }
+
 figure.testimonials h2 {
   color: #ffffff;
 }
+
 figure.snip1390 h4 {
   color: #a6a6a6;
 }
+
 figure.testimonials blockquote {
   font-size: 1em;
   padding: 45px 20px 40px 50px;
@@ -734,6 +742,7 @@ figure.testimonials blockquote {
   text-align: left;
   position: relative;
 }
+
 figure.testimonials blockquote:before {
   font-family: 'FontAwesome';
   content: "\201C";
@@ -744,6 +753,7 @@ figure.testimonials blockquote:before {
   top: 0px;
   left: 20px;
 }
+
 figure.testimonials .profile {
   width: 100px;
   border-radius: 50%;
@@ -761,7 +771,9 @@ figure.testimonials .profile {
   align-items: center;
   user-select: none;
 }
-.previous, .next {
+
+.previous,
+.next {
   cursor: pointer;
   padding: 16px 20px;
   font-weight: bold;
@@ -769,12 +781,15 @@ figure.testimonials .profile {
   transition: 0.5s ease;
   border-radius: 3px;
 }
+
 .partners {
   display: block;
   align-items: center;
   justify-content: center;
 }
-.previous, .next {
+
+.previous,
+.next {
   cursor: pointer;
   padding: 16px 20px;
   font-weight: bold;
@@ -782,6 +797,7 @@ figure.testimonials .profile {
   transition: 0.5s ease;
   border-radius: 3px;
 }
+
 #partners-img {
   width: 200px;
   height: 200px;
@@ -789,6 +805,6 @@ figure.testimonials .profile {
   margin: 50px;
 }
 
-.text{
+.text {
   text-align: center;
 }

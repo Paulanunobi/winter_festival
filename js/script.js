@@ -1,5 +1,5 @@
 // script.js
-
+//This Script changes background image on the homepage
 document.addEventListener('DOMContentLoaded', () => {
     const slide = document.querySelector('.slide');
     let index = 0;
