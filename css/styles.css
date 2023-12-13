@@ -17,6 +17,7 @@ html {
   width: 70%;
   padding: 2em 1em;
   border-radius: 1em;
+  margin-bottom: 5em;
 }
 
 .header-container {
@@ -904,4 +905,44 @@ figure.testimonials .profile {
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
   margin-bottom: 10px;
   border: solid 5px #A6A57A;
+}
+
+
+/* Gallery section */
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+.previous, .next {
+  cursor: pointer;
+  padding: 16px 20px;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.5s ease;
+  border-radius: 3px;
+}
+.partners {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.previous, .next {
+  cursor: pointer;
+  padding: 16px 20px;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.5s ease;
+  border-radius: 3px;
+}
+#partners-img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin: 50px;
+}
+
+.text{
+  text-align: center;
 }
