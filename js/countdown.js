@@ -4,7 +4,7 @@ let hoursToNewyear = document.getElementById("hours-to-newyear");
 let minutesToNewyear = document.getElementById("minutes-to-newyear");
 let secondsToNewyear = document.getElementById("seconds-to-newyear");
 let newyearTitle = document.getElementById("newyear-title");
-let newYearDate = new Date(2024, 2, 2);
+let newYearDate = new Date(2024, 1, 2);
 let neyYearTime = newYearDate.getTime();
 
 let oneMin = 60 * 1000;
