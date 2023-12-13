@@ -4,11 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const slide = document.querySelector('.slide');
     let index = 0;
     const images = [
-        'img/image1.jpg',
+        'img/winter-masquerade.jpg.jpg',
         'img/image2.jpg',
-        'img/image3.jpg',
+        'img/snow-mountain.jpg',
         'img/image4.jpg',
-        'img/image5.jpg'
+        'img/happy-family-in-snow.jpg.jpg'
     ];
 
     function changeImage() {
