@@ -1,9 +1,10 @@
+//This JS code is the countdown timer to Winterlude Festival and it will display a message that Winterlude has begun when it reaches the date so users will know the event has started
 let daysToNewyear = document.getElementById("days-to-newyear");
 let hoursToNewyear = document.getElementById("hours-to-newyear");
 let minutesToNewyear = document.getElementById("minutes-to-newyear");
 let secondsToNewyear = document.getElementById("seconds-to-newyear");
 let newyearTitle = document.getElementById("newyear-title");
-let newYearDate = new Date(2024, 2, 3);
+let newYearDate = new Date(2024, 2, 2);
 let neyYearTime = newYearDate.getTime();
 
 let oneMin = 60 * 1000;
